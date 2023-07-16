@@ -11,7 +11,12 @@ const App = () => {
       </p>
       <p>The JSON file must follow the following format:</p>
       <pre>{`[{name: "NFT name", attributes: [trait_type: "Background", value: "Blue"]}]`}</pre>
-      <p>This tool is open source, you can view the github here: xxxxxxxx</p>
+      <p>
+        This tool is open source, you can view the github here:{' '}
+        <a href="https://github.com/xrpl365/rarity-sniper">
+          https://github.com/xrpl365/rarity-sniper
+        </a>
+      </p>
       <FileUploader />
     </div>
   );
