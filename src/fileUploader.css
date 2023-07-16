@@ -1,0 +1,13 @@
+.json-output {
+  margin: 32px 0;
+  border: 1px solid #ccc;
+  padding: 16px;
+  overflow-y: auto;
+  word-wrap: break-word;
+  max-height: 400px;
+}
+
+input[type='file'] {
+  display: block;
+  margin: 32px 0;
+}
